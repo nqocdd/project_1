@@ -119,9 +119,9 @@ function is_prime(n::Int)
 end
 
 # ===== Ví dụ sử dụng =====
-println("=" * 50)
+println("=" ^ 50)
 println("PHÂN TÍCH THỪA SỐ NGUYÊN TỐ")
-println("=" * 50)
+println("=" ^ 50)
 
 # Ví dụ 1: Phân tích đơn giản
 numbers = [24, 60, 100, 97, 1000]
@@ -133,9 +133,9 @@ for num in numbers
 end
 
 # Ví dụ 2: Phân tích với đếm số lần
-println("\n" * "=" * 50)
+println("\n" * "=" ^ 50)
 println("PHÂN TÍCH VỚI ĐẾM SỐ LẦN")
-println("=" * 50)
+println("=" ^ 50)
 
 for num in numbers
     factors = prime_factorization_with_count(num)
@@ -147,9 +147,9 @@ for num in numbers
 end
 
 # Ví dụ 3: Kiểm tra số nguyên tố
-println("\n" * "=" * 50)
+println("\n" * "=" ^ 50)
 println("KIỂM TRA SỐ NGUYÊN TỐ")
-println("=" * 50)
+println("=" ^ 50)
 
 test_primes = [2, 3, 4, 17, 25, 29, 97, 100]
 for num in test_primes
@@ -158,9 +158,9 @@ for num in test_primes
 end
 
 # Ví dụ 4: Hệ số kết hợp
-println("\n" * "=" * 50)
+println("\n" * "=" ^ 50)
 println("VÍ DỤ NÂNG CAO")
-println("=" * 50)
+println("=" ^ 50)
 
 println("\nTìm tất cả các ước của 120:")
 n = 120
